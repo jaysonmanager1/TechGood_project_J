@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('login', [CustomAuthController::class, 'login'])->name('login');
+Route::get('login', [CustomAuthController::class, 'loginPage'])->name('login');
+Route::get('register', [CustomAuthController::class, 'registerPage'])->name('register');
+
 Route::get('/', function () {
     return view('dashboard');
 });

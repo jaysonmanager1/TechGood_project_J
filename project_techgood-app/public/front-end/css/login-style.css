@@ -22,7 +22,6 @@ h1 {
     margin: 20px 50px;
     height: 350px;
     position: relative;
-    z-index: -1;
 }
 
 .form-login {

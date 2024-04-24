@@ -71,7 +71,8 @@
                                 style="color: #255840; font-size: 30px; float: left; width: 30px; height: 30px;"></i>
                         </div>
                         <p>Tên Tài Khoản</p>
-                        <a class="login-link" href="{{ asset('login') }}">Đăng Nhập</a>
+                        <a class="login link" href="{{ route('login') }}">Đăng Nhập /</a>
+                        <a class="register link" href="{{ route('register') }}">Đăng Ký</a>
                     </div>
                     <div class="cart row">
                         <div class="icon-"><i class="fa fa-cart-shopping  icon-cart"
@@ -164,9 +165,10 @@
         </div>
     </div>
 
-
+    {{-- /yield --}}
     @yield('content_login')
-
+    @yield('content_register')
+    {{-- yield/ --}}
 
     <!-- footer -->
     <footer>
