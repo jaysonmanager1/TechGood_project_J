@@ -193,6 +193,7 @@ span {
     grid-template-columns: auto auto;
     border-radius: 0 0 10px 10px;
     visibility: hidden;
+    z-index: 999;
 }
 
 .drop-down ul li,
@@ -232,7 +233,7 @@ a {
     margin-right: 10px;
 }
 
-.login-link:hover {
+.link:hover {
     color: #238456;
 }
 
@@ -433,4 +434,11 @@ a {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 4rem;
+}
+
+.link {
+    font-size: 15px;
+}
+.register {
+    margin-left: -15px;
 }
