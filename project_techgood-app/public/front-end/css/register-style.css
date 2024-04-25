@@ -41,7 +41,7 @@ h1 {
     text-align: right;
 }
 
-.input-class {
+.input-class:not(.input-class[name="photo"]){
     width: 100%;
     height: 40px;
     border-radius: 20px;
@@ -74,7 +74,7 @@ input[name="birtday"] {
 .box-gender {
     margin-left: 10px;
     display: grid;
-    grid-template-columns: 70px 70px 70px;
+    grid-template-columns: 100px 70px 70px;
     font-weight: 700;
 }
 
@@ -91,4 +91,8 @@ input[name="birtday"] {
     background: #a1a1a1;
     box-shadow: 10px 5px 40px gray;
     cursor: pointer;
+}
+
+.fa {
+    font-size: 50px;
 }

@@ -1,9 +1,5 @@
 @extends('dashboard')
-<link rel="stylesheet" href="{{ asset('bootstrap/public-bootstrap/bootstrap.min.css') }}">
 <link rel="stylesheet" href="{{ asset('front-end/css/register-style.css') }}">
-<style>
-
-</style>
 @section('content_register')
     <div class="breadcrumb">
         <p>Đăng ký</p>
@@ -15,7 +11,7 @@
                 <div class="input-data">
                     <div class="div box-class-gender">
                         <div class="box-gender">
-                            <label for="#">Giới tính</label>
+                            <label for="#" class="gender-l">Giới tính</label>
                             <div class="male-gender">
                                 <label for="male">Nam</label>
                                 <input type="radio" id="male" name="gender">
@@ -47,7 +43,7 @@
                         <input class="input-class" type="date" id="birtday" name="birtday">
                     </div>
                     <div class="div-photo box-class">
-                        <label for="photo">Ảnh đại diện</label>
+                        <label for="photo"><i class="fa-solid fa-file-export fa"></i></label>
                         <input class="input-class" type="file" id="photo" name="photo">
                     </div>
                 </div>
