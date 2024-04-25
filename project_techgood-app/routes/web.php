@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('login', [CustomAuthController::class, 'loginPage'])->name('login');
 Route::get('register', [CustomAuthController::class, 'registerPage'])->name('register');
+Route::get('product_list', [CustomAuthController::class, 'productsPage'])->name('product_list');
 
 Route::get('/', function () {
     return view('dashboard');

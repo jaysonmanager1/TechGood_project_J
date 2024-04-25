@@ -15,4 +15,9 @@ class CustomAuthController extends Controller
     public function registerPage() {
         return view("auth.register");
     }
+    
+    // list products page
+    public function productsPage() {
+        return view("auth.product_list");
+    }
 }

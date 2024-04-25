@@ -39,135 +39,147 @@
         </div>
     </nav>
 
-    <div class="header-top">
-        <div class="nav-bar">
-            <div class="logo-techgood top-left">
-                <img src="{{ asset('./imgs/logo.png') }}" alt="logo" width="70px" height="70px">
-            </div>
-            <div class="top-center">
-                <form class="search" action="#" method="GET">
-                    <label for="search-nav" class="lb-search">Tim Kiem</label>
-                    <input class="search-input" type="text" placeholder="Bạn muốn tìm gì . . ." name="search-nav"
-                        id="search-nav">
-                    <button type="submit" class="btn-search">Tìm</button>
-                </form>
-            </div>
-            <div class="top-right">
-                <div class="grid">
-                    <div class="help row">
-                        <div class="icon-">
-                            <i class="fa fa-phone"
-                                style="color: #255840; font-size: 30px; float: left;  width: 30px; height: 30px;"></i>
-                        </div>
-                        <div class="item">
-                            <p>Cần giúp đỡ ?</p>
-                            <p>(+84) 123 123 132</p>
-                        </div>
+    {{--  --}}
+    <div class="menu-a">
+        <button class="show-menu"><i class="fa-solid fa-bars fa"></i></button>
+        <div class="menu-nav">
+        </div>
+    </div>
+    {{--  --}}
+    <section class="top">
+        <div class="header-top">
+            <div class="nav-bar">
+                <div class="logo-techgood top-left">
+                    <a href="#"><img src="{{ asset('./imgs/logo.png') }}" alt="logo" width="70px"
+                            height="70px"></a>
+                </div>
+                <div class="top-center">
+                    <form class="search" action="#" method="GET">
+                        <label for="search-nav" class="lb-search">Tim Kiem</label>
+                        <input class="search-input" type="text" placeholder="Bạn muốn tìm gì . . ." name="search-nav"
+                            id="search-nav">
+                        <button type="submit" class="btn-search">Tìm</button>
+                    </form>
+                </div>
+                <div class="top-right">
+                    <div class="grid">
+                        <div class="help row">
+                            <div class="icon-">
+                                <i class="fa fa-phone"
+                                    style="color: #255840; font-size: 30px; float: left;  width: 30px; height: 30px;"></i>
+                            </div>
+                            <div class="item">
+                                <p>Cần giúp đỡ ?</p>
+                                <p>(+84) 123 123 132</p>
+                            </div>
 
-                    </div>
-                    <div class="infor-account row">
-                        <div class="icon-">
-                            <i class="fa fa-user"
-                                style="color: #255840; font-size: 30px; float: left; width: 30px; height: 30px;"></i>
                         </div>
-                        <p>Tên Tài Khoản</p>
-                        <a class="login link" href="{{ route('login') }}">Đăng Nhập /</a>
-                        <a class="register link" href="{{ route('register') }}">Đăng Ký</a>
-                    </div>
-                    <div class="cart row">
-                        <div class="icon-"><i class="fa fa-cart-shopping  icon-cart"
-                                style="color: #255840; font-size: 30px; float: left;  width: 30px; height: 30px;"></i>
+                        <div class="infor-account row">
+                            <div class="icon-">
+                                <i class="fa fa-user"
+                                    style="color: #255840; font-size: 30px; float: left; width: 30px; height: 30px;"></i>
+                            </div>
+                            <p>Tên Tài Khoản</p>
+                            <a class="login link" href="{{ route('login') }}">Đăng Nhập /</a>
+                            <a class="register link" href="{{ route('register') }}">Đăng Ký</a>
                         </div>
-                        <div class="item">
-                            <a href="#" class="cart-link">Giỏ Hàng</a>
-                            <p>SL: 0</p>
+                        <div class="cart row">
+                            <div class="icon-"><i class="fa fa-cart-shopping  icon-cart"
+                                    style="color: #255840; font-size: 30px; float: left;  width: 30px; height: 30px;"></i>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="cart-link">Giỏ Hàng</a>
+                                <p>SL: 0</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="menu">
-        <div class="container-menu menu-top">
-            <div class="menu-1 grid-item">
-                <div class="text-drop">Danh mục<span>></span>
-                </div>
-                <div class="drop-down">
-                    <div class="grid-1">
-                        <ul>
-                            <li><b>Danh Muc Grid 1</b></li>
-                            <li><a href="#">Điện thoại</a></li>
-                            <li><a href="#">Laptop</a></li>
-                            <li><a href="#">Âm thanh</a></li>
-                            <li><a href="#">Đồng hồ</a></li>
-                            <li><a href="#">Phụ kiện</a></li>
-                            <li><a href="#">Màn hình, PC</a></li>
-                            <li><a href="#">Máy tính bảng</a></li>
-                        </ul>
+        <div class="menu">
+            <div class="container-menu menu-top">
+                <div class="menu-1 grid-item">
+                    <div class="text-drop">Danh mục<span>></span>
                     </div>
-                    <div class="grid-2">
-                        <ul>
-                            <li><b>Danh Muc Grid 2</b></li>
-                            <li><a href="#">Laptop</a></li>
-                            <li><a href="#">Âm thanh</a></li>
-                            <li><a href="#">Đồng hồ</a></li>
-                            <li><a href="#">Phụ kiện</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-2 grid-item">
-                <div class="text-drop">Thương hiệu<span>></span></div>
-                <div class="drop-down">
-                    <div class="grid-1">
-                        <ul>
-                            <li><b>Thương hiệu Grid 1</b></li>
-                            <li><a href="#">LG</a></li>
-                            <li><a href="#">Apple</a></li>
-                            <li><a href="#">Samsung</a></li>
-                            <li><a href="#">Oppo</a></li>
-                            <li><a href="#">Onplus</a></li>
-                            <li><a href="#">Xiao mi</a></li>
-                            <li><a href="#">Google</a></li>
-                        </ul>
-                    </div>
-                    <div class="grid-2">
-                        <ul>
-                            <li><b>Thương hiệu Grid 2</b></li>
-                            <li><a href="#">Vivo</a></li>
-                            <li><a href="#">Infinix</a></li>
-                            <li><a href="#">Corsair</a></li>
-                            <li><a href="#">Intel</a></li>
-                            <li><a href="#">Nokia</a></li>
-                            <li><a href="#">Toshiba</a></li>
-                            <li><a href="#">Asus</a></li>
-                        </ul>
+                    <div class="drop-down">
+                        <div class="grid-1">
+                            <ul>
+                                <li><b>Danh Muc Grid 1</b></li>
+                                <li><a href="#">Điện thoại</a></li>
+                                <li><a href="#">Laptop</a></li>
+                                <li><a href="#">Âm thanh</a></li>
+                                <li><a href="#">Đồng hồ</a></li>
+                                <li><a href="#">Phụ kiện</a></li>
+                                <li><a href="#">Màn hình, PC</a></li>
+                                <li><a href="#">Máy tính bảng</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid-2">
+                            <ul>
+                                <li><b>Danh Muc Grid 2</b></li>
+                                <li><a href="#">Laptop</a></li>
+                                <li><a href="#">Âm thanh</a></li>
+                                <li><a href="#">Đồng hồ</a></li>
+                                <li><a href="#">Phụ kiện</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <div class="menu-2 grid-item">
+                    <div class="text-drop">Thương hiệu<span>></span></div>
+                    <div class="drop-down">
+                        <div class="grid-1">
+                            <ul>
+                                <li><b>Thương hiệu Grid 1</b></li>
+                                <li><a href="#">LG</a></li>
+                                <li><a href="#">Apple</a></li>
+                                <li><a href="#">Samsung</a></li>
+                                <li><a href="#">Oppo</a></li>
+                                <li><a href="#">Onplus</a></li>
+                                <li><a href="#">Xiao mi</a></li>
+                                <li><a href="#">Google</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid-2">
+                            <ul>
+                                <li><b>Thương hiệu Grid 2</b></li>
+                                <li><a href="#">Vivo</a></li>
+                                <li><a href="#">Infinix</a></li>
+                                <li><a href="#">Corsair</a></li>
+                                <li><a href="#">Intel</a></li>
+                                <li><a href="#">Nokia</a></li>
+                                <li><a href="#">Toshiba</a></li>
+                                <li><a href="#">Asus</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-            </div>
-            <div class="menu-3 grid-item">
-                <div class="text-drop">Tất cả sản phẩm</div>
-                <div class="#">
                 </div>
-            </div>
-            <div class="menu-4 grid-item">
-                <div class="text-drop">Giỏ hàng của tôi</div>
-                <div class="#">
+                <div class="menu-3 grid-item">
+                    <a href="{{ route('product_list') }}">
+                        <div class="text-drop">Tất cả sản phẩm</div>
+                    </a>
+                    <div class="#">
+                    </div>
                 </div>
-            </div>
-            <div class="menu-5 grid-item">
-                <div class="text-drop">Chính sách điều khoản</div>
-                <div class="#">
+                <div class="menu-4 grid-item">
+                    <div class="text-drop">Giỏ hàng của tôi</div>
+                    <div class="#">
+                    </div>
+                </div>
+                <div class="menu-5 grid-item">
+                    <div class="text-drop">Chính sách điều khoản</div>
+                    <div class="#">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
     {{-- /yield --}}
     @yield('content_login')
     @yield('content_register')
+    @yield('content_listProducts')
     {{-- yield/ --}}
 
     <!-- footer -->
