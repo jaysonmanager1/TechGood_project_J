@@ -100,7 +100,7 @@
         <div class="menu">
             <div class="container-menu menu-top">
                 <div class="menu-1 grid-item">
-                    <div class="text-drop">Danh mục<span>></span>
+                    <div class="text-drop">Danh mục<span class="icon-show-1">></span>
                     </div>
                     <div class="drop-down">
                         <div class="grid-1">
@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="menu-2 grid-item">
-                    <div class="text-drop">Thương hiệu<span>></span></div>
+                    <div class="text-drop">Thương hiệu<span class="icon-show-1">></span></div>
                     <div class="drop-down">
                         <div class="grid-1">
                             <ul>
@@ -180,6 +180,7 @@
     @yield('content_login')
     @yield('content_register')
     @yield('content_listProducts')
+    @yield('content_detail')
     {{-- yield/ --}}
 
     <!-- footer -->
@@ -254,6 +255,7 @@
             </div>
         </div>
     </footer>
+    <script src="{{ asset('front-end/js/dashboard.js') }}"></script>
 </body>
 
 </html>

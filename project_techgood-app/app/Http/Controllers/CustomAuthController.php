@@ -20,4 +20,10 @@ class CustomAuthController extends Controller
     public function productsPage() {
         return view("auth.product_list");
     }
+
+    // detail product page
+    public function productDetailPage() {
+        return view("auth.product_detail");
+    }
+    
 }

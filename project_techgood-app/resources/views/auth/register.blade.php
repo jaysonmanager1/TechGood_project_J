@@ -43,6 +43,7 @@
                         <input class="input-class" type="date" id="birtday" name="birtday">
                     </div>
                     <div class="div-photo box-class">
+                        <p><b>Avatar</b></p>
                         <label for="photo"><i class="fa-solid fa-file-export fa"></i></label>
                         <input class="input-class" type="file" id="photo" name="photo">
                     </div>
