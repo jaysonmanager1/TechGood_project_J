@@ -528,7 +528,7 @@
         {{-- Phan trang --}}
         <div class="pagination">
             <ul>
-                <span class="pre"></span>
+                <span class="pre"><</span>
                 <li class="active">1</li>
                 <li>2</li>
                 <li>3</li>

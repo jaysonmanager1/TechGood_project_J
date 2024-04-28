@@ -70,6 +70,7 @@
 .price .price-old,
 .price-new {
     color: #000;
+    cursor: default;
 }
 
 .price {
