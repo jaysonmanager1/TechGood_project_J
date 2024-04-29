@@ -40,6 +40,15 @@
 .img-product {
     border-radius: 20px 20px 0 0;
     background-size: cover;
+    transition: .5s;
+}
+
+.img-product:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    overflow: hidden;
 }
 
 .info-product {
@@ -65,12 +74,17 @@
 
 .price-old {
     text-decoration: line-through;
+    color: #a1a1a1;
 }
 
-.price .price-old,
 .price-new {
     color: #000;
+}
+
+.price-old,
+.price-new {
     cursor: default;
+    font-weight: 700;
 }
 
 .price {
@@ -80,6 +94,11 @@
 
 .name-product {
     margin-top: -20px;
+    font-weight: 700;
+}
+
+.name-product:hover {
+    color: #255840;
 }
 
 .pagination {
