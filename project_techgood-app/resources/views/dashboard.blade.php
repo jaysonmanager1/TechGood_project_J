@@ -187,15 +187,15 @@
     <footer>
         <div class="footer-all">
             <div class="fill-bg-top">
-                <div class="top-footer">
-                    <div class="text-left">
+                <div class="top-footer row">
+                    <div class="text-left col-md-8">
                         <div class="icon-email"><i class="fa fa-envelope"></i></div>
                         <div class="text">
                             <p>Để lại email để chúng tôi có thể thông báo những ưu đãi mới nhất đến với bạn</p>
                             <p>Nhận thông tin cập nhật qua E-mail về của chúng tôi và các ưu đãi đặc biệt.</p>
                         </div>
                     </div>
-                    <div class="email-right">
+                    <div class="email-right col-md-4">
                         <form action="#" method="GET" class="form-email">
                             <input type="email" name="email-footer" id="email-footer"
                                 placeholder="Email của bạn . . .">

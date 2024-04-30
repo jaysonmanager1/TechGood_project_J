@@ -47,7 +47,7 @@ h1 {
     border-radius: 20px;
     padding-left: 15px;
     border: #E6E6E6;
-    box-shadow: 10px 10px 30px #a1a1a1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .box-class {
@@ -89,10 +89,12 @@ input[name="birtday"] {
     border: #e6e6e6;
     color: #fff;
     background: #a1a1a1;
-    box-shadow: 10px 5px 40px gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
 }
-
+.btn-register:hover {
+    background: #255840;
+}
 .fa {
     font-size: 50px;
 }

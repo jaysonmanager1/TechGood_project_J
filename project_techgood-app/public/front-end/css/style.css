@@ -309,9 +309,6 @@ a {
 .top-footer {
     margin: 0 50px;
     padding: 15px;
-    display: grid;
-    grid-template-columns: auto .5fr;
-    gap: 1rem;
 }
 
 .center-footer {
