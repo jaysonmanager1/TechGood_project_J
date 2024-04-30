@@ -73,9 +73,144 @@
                     </div>
                 </div>
                 <div class="addtocard">
-                    <button type="submit" class="btn-addtocart">Add to cart</button>
+                    <button type="submit" class="d-btn-addtocart">Thêm vào giỏ</button>
                 </div>
             </div>
         </form>
+
+        <div class="info-detail">
+            <div class="thong-so">
+                <h3>Thông số kỹ thuật</h3>
+                <div class="box-thongso">
+                    <ul class="technical-content">
+                        <li class="item-content">
+                            <p class="items">Thong so co ten dai lam ne</p>
+                            <div class="info-tech">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                                quisquam molestiae
+                                commodi tempora tenetur agendi doloribus.</div>
+                        </li>
+                        <li class="item-content">
+                            <p class="items">ngan ne</p>
+                            <div class="info-tech">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                                quisquam molestiae
+                                commodi tempora tenetur agendi doloribus.</div>
+                        </li>
+                        <li class="item-content">
+                            <p class="items">Thong so co ten dai vai cut lam ne</p>
+                            <div class="info-tech">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                                quisquam molestiae
+                                commodi tempora tenetur agendi doloribus.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="same-products">
+                <h3>Sản phẩm tương tự</h3>
+                <div class="box-product">
+                    <form action="#">
+                        <div class="card-product">
+                            <img src="https://th.bing.com/th/id/R.595fa4992c11870894827e96ef8a7100?rik=SGGWJ5QllDFfIg&pid=ImgRaw&r=0"
+                                class="img-product" alt="...">
+                            <div class="s-info-product">
+                                <a href="#" class="s-link-name">
+                                    <div class="s-name-product">Tên sản phẩm này rất dài đó nha</div>
+                                </a>
+                                <div class="s-box-price">
+                                    <span class="price-old">20.000.000 đ</span>
+                                    <span class="price-new">15.000.000 đ</span>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn-addtocart">Thêm vào giỏ</button>
+                        </div>
+                    </form>
+
+                    <form action="#">
+                        <div class="card-product">
+                            <img src="https://th.bing.com/th/id/R.595fa4992c11870894827e96ef8a7100?rik=SGGWJ5QllDFfIg&pid=ImgRaw&r=0"
+                                class="img-product" alt="...">
+                            <div class="s-info-product">
+                                <a href="#" class="s-link-name">
+                                    <div class="s-name-product">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Blanditiis harum velit dolor cum assumenda sunt?</div>
+                                </a>
+                                <div class="s-box-price">
+                                    <span class="price-old">20.000.000 đ</span>
+                                    <span class="price-new">15.000.000 đ</span>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn-addtocart">Thêm vào giỏ</button>
+                        </div>
+                    </form>
+
+                    <form action="#">
+                        <div class="card-product">
+                            <img src="https://th.bing.com/th/id/R.595fa4992c11870894827e96ef8a7100?rik=SGGWJ5QllDFfIg&pid=ImgRaw&r=0"
+                                class="img-product" alt="...">
+                            <div class="s-info-product">
+                                <a href="#" class="s-link-name">
+                                    <div class="s-name-product">Tên sản phẩm này rất dài đó nha</div>
+                                </a>
+                                <div class="s-box-price">
+                                    <span class="price-old">20.000.000 đ</span>
+                                    <span class="price-new">15.000.000 đ</span>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn-addtocart">Thêm vào giỏ</button>
+                        </div>
+                    </form>
+
+                    <form action="#">
+                        <div class="card-product">
+                            <img src="https://th.bing.com/th/id/R.595fa4992c11870894827e96ef8a7100?rik=SGGWJ5QllDFfIg&pid=ImgRaw&r=0"
+                                class="img-product" alt="...">
+                            <div class="s-info-product">
+                                <a href="#" class="s-link-name">
+                                    <div class="s-name-product">Tên sản phẩm này rất dài đó nha</div>
+                                </a>
+                                <div class="s-box-price">
+                                    <span class="price-old">20.000.000 đ</span>
+                                    <span class="price-new">15.000.000 đ</span>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn-addtocart">Thêm vào giỏ</button>
+                        </div>
+                    </form>
+
+                    <form action="#">
+                        <div class="card-product">
+                            <img src="https://th.bing.com/th/id/R.595fa4992c11870894827e96ef8a7100?rik=SGGWJ5QllDFfIg&pid=ImgRaw&r=0"
+                                class="img-product" alt="...">
+                            <div class="s-info-product">
+                                <a href="#" class="s-link-name">
+                                    <div class="s-name-product">Tên sản phẩm này rất dài đó nha</div>
+                                </a>
+                                <div class="s-box-price">
+                                    <span class="price-old">20.000.000 đ</span>
+                                    <span class="price-new">15.000.000 đ</span>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn-addtocart">Thêm vào giỏ</button>
+                        </div>
+                    </form>
+
+                    <form action="#">
+                        <div class="card-product">
+                            <img src="https://th.bing.com/th/id/R.595fa4992c11870894827e96ef8a7100?rik=SGGWJ5QllDFfIg&pid=ImgRaw&r=0"
+                                class="img-product" alt="...">
+                            <div class="s-info-product">
+                                <a href="#" class="s-link-name">
+                                    <div class="s-name-product">Tên sản phẩm này rất dài đó nha</div>
+                                </a>
+                                <div class="s-box-price">
+                                    <span class="price-old">20.000.000 đ</span>
+                                    <span class="price-new">15.000.000 đ</span>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn-addtocart">Thêm vào giỏ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 @endsection
