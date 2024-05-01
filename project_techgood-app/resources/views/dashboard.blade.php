@@ -88,7 +88,7 @@
                                     style="color: #255840; font-size: 30px; float: left;  width: 30px; height: 30px;"></i>
                             </div>
                             <div class="item">
-                                <a href="#" class="cart-link">Giỏ Hàng</a>
+                                <a href="{{ route('product_cart') }}" class="cart-link">Giỏ Hàng</a>
                                 <p>SL: 0</p>
                             </div>
                         </div>
@@ -164,7 +164,9 @@
                     </div>
                 </div>
                 <div class="menu-4 grid-item">
-                    <div class="text-drop">Giỏ hàng của tôi</div>
+                    <a href="{{ route('product_cart') }}">
+                        <div class="text-drop">Giỏ hàng của tôi</div>
+                    </a>
                     <div class="#">
                     </div>
                 </div>
@@ -181,6 +183,7 @@
     @yield('content_register')
     @yield('content_listProducts')
     @yield('content_detail')
+    @yield('content_cart')
     {{-- yield/ --}}
 
     <!-- footer -->
