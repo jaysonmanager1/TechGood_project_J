@@ -184,6 +184,7 @@
     @yield('content_listProducts')
     @yield('content_detail')
     @yield('content_cart')
+    @yield('content_abate')
     {{-- yield/ --}}
 
     <!-- footer -->

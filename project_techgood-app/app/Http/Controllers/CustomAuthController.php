@@ -12,7 +12,7 @@ class CustomAuthController extends Controller
         return view("auth.login");
     }
 
-    // register page 
+    // register page
     public function registerPage()
     {
         return view("auth.register");
@@ -34,5 +34,11 @@ class CustomAuthController extends Controller
     public function productCartPage()
     {
         return view("auth.product_cart");
+    }
+
+    // abate(thanh toan) page
+    public function thanhToanPage()
+    {
+        return view("auth.thanh_toan");
     }
 }
