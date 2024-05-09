@@ -14,12 +14,14 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+// Controller page
 Route::get('login', [CustomAuthController::class, 'loginPage'])->name('login');
 Route::get('register', [CustomAuthController::class, 'registerPage'])->name('register');
 Route::get('product_list', [CustomAuthController::class, 'productsPage'])->name('product_list');
 Route::get('product_detail', [CustomAuthController::class, 'productDetailPage'])->name('product_detail');
 Route::get('product_cart', [CustomAuthController::class, 'productCartPage'])->name('product_cart');
-
+Route::get('thanh_toan', [CustomAuthController::class, 'thanhToanPage'])->name('thanh_toan');
+//
 Route::get('/', function () {
     return view('auth.product_list');
 });
